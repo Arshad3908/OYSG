@@ -1,0 +1,88 @@
+/* Set the font family and size for the entire document */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the main content */
+  main {
+    margin: 20px;
+  }
+  
+  /* Style the sections */
+  section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  /* Style the links */
+  a {
+    color: #f6f1f1;
+    text-decoration: none;
+  }
+  
+  /* Style the navigation menu */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  /* Style the form */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+/* Mobile responsive */
+@media only screen and (max-width: 768px) {
+    main {
+      margin: 10px;
+    }
+  
+    section {
+      padding: 5px;
+    }
+  
+    nav li {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }form input[type="text"],
+    form input[type="email"],
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+  }  
